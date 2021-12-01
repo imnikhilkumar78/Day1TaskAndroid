@@ -17,15 +17,15 @@ class MainActivity : AppCompatActivity() {
 
         clickMeButton1.setOnClickListener {
 
-            buttonCountDisplayView.setText("Button1 Clicked")
+            buttonCountDisplayView.setText("Red was Clicked")
         }
         clickMeButton2.setOnClickListener {
 
-            buttonCountDisplayView.setText("Button2 Clicked")
+            buttonCountDisplayView.setText("Green was Clicked")
         }
         clickMeButton3.setOnClickListener {
 
-            buttonCountDisplayView.setText("Button3 Clicked")
+            buttonCountDisplayView.setText("Blue was Clicked")
         }
     }
 }
